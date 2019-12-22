@@ -1,6 +1,9 @@
 # Python app to see calendar tasks
 A python app in order to see google calendar calendars tasks, and other usefull information.
 
+# Docs/API
+Using the [google calendar API](https://developers.google.com/calendar/quickstart/python)
+
 # Requirements
 It is required to install the following pip packages:
 * google-api-python-client
