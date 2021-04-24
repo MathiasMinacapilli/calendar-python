@@ -4,15 +4,12 @@ A python app in order to see google calendar calendars tasks, and other usefull 
 # Docs/API
 Using the [google calendar API](https://developers.google.com/calendar/quickstart/python)
 
-# Requirements
-It is required to install the following pip packages:
-* google-api-python-client
-* google-auth-httplib2
-* google-auth-oauthlib
-You can install them running the following command (if you have installed python2 and python3 at the same time you should run with pip3 instead of only pip):
-```
-pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
-```
+# Get started
+1. Create virtual env: `python3 -m venv env`
+1. Activate virtual env: `source env/bin/activate`
+1. Install requirements: `pip install -r requirements.txt`
+1. Add calendars if required (see sections "Add calendars to the program")
+1. Run the program: `python main.py`
 
 # Add calendars to the program
 If you wanna add another calendar to the program you have to open the file `calendars.json` and add another JSON object with the following structure:
@@ -21,10 +18,4 @@ If you wanna add another calendar to the program you have to open the file `cale
     "name": "your_calendar_name",
     "key": "your_calendar_key"
 }
-```
-
-# Run the program
-You can run the program by executing the following command: (if you have installed python2 and python3 at the same time you should run with python3 instead of only python)
-```
-python main.py
 ```
